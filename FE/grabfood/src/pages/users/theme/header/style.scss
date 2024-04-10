@@ -1,0 +1,19 @@
+.container_right {
+  background: #fff;
+  display: flex;
+  justify-content: end;
+
+  .chuyenmuc {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+  }
+}
+
+.logo {
+  img {
+    height: 80px;
+    width: 150px;
+    object-fit: cover;
+  }
+}
