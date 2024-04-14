@@ -1,6 +1,6 @@
 import { memo } from "react";
 import "./style.scss";
-import { FaBagShopping } from "react-icons/fa6";
+import { BsHandbag } from "react-icons/bs";
 import { FaChevronDown } from "react-icons/fa";
 
 const Header = () => {
@@ -16,11 +16,14 @@ const Header = () => {
           <div className="col-6 container_right">
             <div className="chuyenmuc">
               <div className="giohang">
-                <FaBagShopping />
+                <BsHandbag />
               </div>
               <div className="login">Đăng nhập/ Đăng ký</div>
               <div className="ngonngu">
-                VI <FaChevronDown />
+                VI
+                <div className="down">
+                  <FaChevronDown />
+                </div>
               </div>
             </div>
           </div>
